@@ -32,10 +32,17 @@ Create build directory
 mkdir build && cd build
 ```
 
-Compile project
+Compile project (For UNIX):
 ```shell
 # build/
 cmake ..
+make
+```
+
+Compile project (For Windows, you may need to delete the build directory):
+```shell
+# build/
+cmake .. -G "Unix Makefiles"
 make
 ```
 
