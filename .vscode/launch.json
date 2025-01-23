@@ -9,6 +9,7 @@
             "request": "launch",
             "name": "Debug",
             "program": "${workspaceFolder}/build/${fileBasenameNoExtension}",
+            "preLaunchTask": "Run Make",
             "args": [],
             "cwd": "${workspaceFolder}"
         }
